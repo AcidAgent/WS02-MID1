@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: black;
+	background-size: cover;
+}
+.box {
+	width: 450px;
+	background: linear-gradient(to bottom, #020433, #0D1163, #1D2177);
+	padding: 5px;
+	text-align: center;
+	margin: auto;
+	margin-top: 0%;
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+
+}
+.box-img {
+	border-radius: 50%;
+	border: 8px solid #01018C;
+	width: 380px;
+	height: 380px;
+	object-fit: cover;
+}
+.box h1 {
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: 100;
+}
+.box h5 {
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+.box p {
+	text-align: justify;
+}
+.info {
+	background: white;
+	padding: 5px;
+	margin: ;
+}
+.description {
+	width: 650px;
+	background: white;
+	padding: 5px;
+	margin: auto;
+	margin-top: 0%;
+	color: black;
+	font-family: 'Century Gothic', sans-serif;
+	float: left;
+}
+.list {
+	width: 650px;
+	border: 8px solid #01018C;
+	background: white;
+	padding: 5px;
+	margin: auto;
+	margin-top: 0%;
+	color: black;
+	font-family: 'Century Gothic', sans-serif;
+	float: right;
+}
