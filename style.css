@@ -1,18 +1,16 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: black;
-	background-size: cover;
+	background:black;
 }
 .box {
-	width: 450px;
-	background: linear-gradient(to bottom, #020433, #0D1163, #1D2177);
+	background: linear-gradient(to bottom, #1D2177, #0D1163, #020433);
 	padding: 5px;
 	text-align: center;
 	margin: auto;
 	margin-top: 0%;
 	color: white;
-	font-family: 'Century Gothic', sans-serif;
+	font-family: 'Constantia', sans-serif;
 
 }
 .box-img {
@@ -33,31 +31,104 @@ body {
 	font-weight: 100;
 }
 .box p {
-	text-align: justify;
+	color: gold;
 }
-.info {
-	background: white;
-	padding: 5px;
-	margin: ;
+.mid {
+	float: center;
+}
+.about {
+	margin-left: auto;
+	margin-right: auto;
 }
 .description {
-	width: 650px;
+	width: 655px;
+	height: 200px;
+	border: 4px solid #01018C;
 	background: white;
 	padding: 5px;
 	margin: auto;
 	margin-top: 0%;
 	color: black;
 	font-family: 'Century Gothic', sans-serif;
-	float: left;
+	text-align: justify;
+	font-family: 'Constantia', sans-serif;
+}
+.description-bold {
+	text-align: center;
+	font-family: 'Constantia', sans-serif;
 }
 .list {
-	width: 650px;
-	border: 8px solid #01018C;
+	width: 655px;
+	height: 200px;
+	border: 4px solid #01018C;
 	background: white;
 	padding: 5px;
 	margin: auto;
 	margin-top: 0%;
 	color: black;
 	font-family: 'Century Gothic', sans-serif;
-	float: right;
+	text-align: justify;
+	font-family: 'Constantia', sans-serif;
+}
+.list p {
+	text-align: center;
+	font-family: 'Constantia', sans-serif;
+}
+.wallpaper {
+	height: 450px;
+	background: linear-gradient(to bottom,  #1D2177, #0D1163, #020433);
+	padding: 5px;
+	margin: auto;
+	margin-top: 0%;
+	color: black;
+	font-family: 'Century Gothic', sans-serif;
+	text-align: center;
+}
+.wallpaper-background {
+	width: 1315px;
+	height: 450px;
+	background: rgba(0, 0, 1.0, 0);
+	padding: 5px;
+	margin: auto;
+	margin-top: 0%;
+	color: black;
+	font-family: 'Century Gothic', sans-serif;
+	text-align: center;
+}
+.wallpaper-img {
+	margin: auto;
+	float: center;
+	border: 8px solid #01018C;
+	width: 760px;
+	height: 380px;
+	object-fit: cover;
+}
+.wallpaper p {
+	color: gold;
+	font-family: 'Constantia', sans-serif;
+}
+.relations {
+	background-color: white;
+	padding: 5px;
+	margin: auto;
+	margin-top: 0%;
+	color: black;
+	font-family: 'Century Gothic', sans-serif;
+	text-align: center;
+}
+.relations b {
+	font-family: 'Constantia', sans-serif;
+}
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #E6E6E6;
+	font-family: 'Constantia', sans-serif;
+}
+footer ul{
+	text-align: center;
+}
+footer ul li{
+	display: inline-block;
+	margin: 5px;
 }
